@@ -1,0 +1,294 @@
+.rb_homepage {
+    .rd-description {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .rb_banner_bg {
+        background: linear-gradient(#c4d8e4, #e5edf7);
+        .rd-image-title {
+            position: absolute;
+            top: 22%;
+            right: 15%;
+            font-size: 14px;
+        }
+        .rb_arrow_box {
+            position: relative;
+            .arrow {
+                height: 100px;
+                position: absolute;
+                right: -50px;
+                z-index: 11;
+                bottom: 50%;
+                img {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+.s_three_columns.rd_three_columns {
+    .card {
+        display: flex;
+        box-shadow: 0 2px 10px 0 rgba(142,154,173,0.6);
+    }
+    .img_box {
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        .card-img-top {
+            width: 50px;
+        }
+    }
+}
+.rb_blueribbon_achievement {
+    .col-lg-4 {
+        display: flex;
+        flex-direction: column;
+        .oe_image_data {
+            flex: 1;
+        }
+    }
+}
+.rb-winner-box {
+    .rb_box_round {
+        & > span {
+            width: 75px;
+            height: 75px;
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
+    .rb_winner_box {
+        position: absolute;
+        right: -30px;
+        top: -54px;
+        &.icon_box {
+            & > span {
+                width: 150px;
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+.rb_text_primary {
+    color: rgb(247, 128, 89);
+}
+.rd-custom-button {
+    padding: 20px 60px;
+    color: #fff !important;
+    font-size: 18px;
+    border: 0;
+    box-shadow: 0 3px 0 #af5c34 !important;
+    background-color: rgba(247,128,89,1);
+    &.small {
+        padding: 12px 34px;
+    }
+    &:hover, &:active, &:focus {
+        background-color: darken(rgba(247,128,89,1),5) !important;
+    }
+}
+
+.rb_blueribbon_design {
+    padding: 0 15px;
+    .rb-masonary {
+        padding: 0;
+        -moz-column-gap: 3px;
+        -webkit-column-gap: 3px;
+        column-gap: 3px;
+        display: block !important;
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+.rb-feature-title {
+    .process_box {
+        & > .row {
+            .rd-description-box {
+                &:first-child {
+                    .process {
+                        &:before {
+                            display: none;
+                        }
+                    }
+                }
+                &:last-child {
+                    .process {
+                        &:after {
+                            display: none;
+                        }   
+                    }
+                }
+            }
+        }
+    }
+    .process {
+        position: relative;
+        margin: 15px 0;
+        &:after {
+            content: '';
+            position: absolute;
+            background-color: #ccc;
+            right: -15px;
+            left: 56%;
+            top: 10px;
+            bottom: 10px;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            background-color: #ccc;
+            left: -15px;
+            right: 56%;
+            top: 10px;
+            bottom: 10px; 
+        }
+        .rb-dot {
+            &:before {
+                content: '';
+                background-color: #ccc;
+                padding: 5px;
+                border-radius: 50%;
+                width: 25px;
+                height: 25px;
+                display: block;
+                margin: auto;
+            }
+        }
+    }
+}
+
+.rb-box-shadow {
+    box-shadow: 0 2px 10px 0 rgba(142,154,173,0.6);
+}
+.rb-white {
+    color: white;
+}
+
+.rb-ad-block {
+    .arow_box {
+        position: absolute;
+        bottom: 100%;
+        right: 0;
+    }
+}
+
+.rb_text_secondery {
+    color: #444b56;
+    border: 2px solid #444B56;
+    border-radius: 3px;
+    background-color: transparent;
+    padding: 18px 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: unset;
+    &:hover, &:active {
+        color: rgb(239, 124, 70);
+        border-color: rgb(239, 124, 70);
+    }
+}
+
+.bg-light-banner {
+    background: linear-gradient(#dfe1e4,#C6C6C7);
+}
+
+.rd-hr-block {
+    .line {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+        .rd-line {
+            height: 3px;
+            width: 150px;
+            display: inline-block;
+            background-color: #EEE;
+        }
+    }
+}
+
+
+#rb-model-popup {
+    .modal-content {
+        border-radius: 6px;
+        overflow: hidden;
+    }
+    .modal-header {
+        padding: 0;
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            padding: 0;
+            margin: 0;
+            z-index: 11;
+            background-color: white;
+            border-radius: 50%;
+            padding: 2px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+}
+
+.editor_enable {
+    .o_editable {
+        .rb_banner_bg {
+            .rb_arrow_box {
+                .btn {
+                    pointer-events: none;
+                }
+            }
+        }
+    }
+    .modal-backdrop.fade {
+        display: none;
+    }
+    .btn-outline-primary.rd-custom-button {
+        pointer-events: none;
+    }
+}
+
+.s_follow_us {
+    .rb-facebook-button {
+        .btn {
+            background-color: rgba(59,89,152,1);
+            border-color: rgba(59,89,152,1);
+            &:hover, &:active {
+                background-color: rgba(59,89,152,1);
+                border-color: rgba(59,89,152,1);
+            }
+        }
+    }
+    .rb-twitter-button {
+        .btn {
+            background-color: rgba(0,167,253,1);
+            border-color: rgba(0,167,253,1);
+            &:hover, &:active {
+                background-color: rgba(0,167,253,1);
+                border-color: rgba(0,167,253,1);
+            }
+        }
+    }
+    .rb-google-button {
+        .btn {
+            background-color: rgba(242,85,59,1);
+            border-color: rgba(242,85,59,1);
+            &:hover, &:active {
+                background-color: rgba(242,85,59,1);
+                border-color: rgba(242,85,59,1);
+            }
+        }
+    }
+}
+
+.rb-max-100 {
+    max-width: 100% !important;
+    width: auto !important;
+}

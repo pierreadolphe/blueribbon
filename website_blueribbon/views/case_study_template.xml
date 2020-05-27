@@ -1,0 +1,412 @@
+<odoo>
+    <template id="case_study" name="case study Page">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure rd-case-study">
+                <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Cover" style="background-image: none;">
+                    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/website_blueribbon/static/src/img/campaign-monitor.jpg'); background-position: 50% 0;"></span>
+                    <div class="container">
+                        <div class="row s_nb_column_fixed">
+                            <div class="col-lg-12 s_title" data-name="Title">
+                                <div class="row">
+                                    <div class="col-lg-6 s_title" data-name="Title">
+                                        <h4 class="s_title_thin" style="text-align: left;">CASE STUDY</h4>
+                                        <h1 class="s_title_thin" style="text-align: left; font-size: 62px;">Campaign Monitor</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                                <div class="row">
+                                    <div class="col-lg-6" data-name="Title">
+                                        <p class="lead" style="text-align: left;">
+                                            See how we increased conversion rates by more than 1180% for one of the world’s leading providers of email marketing and automation software.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <section class="s_text_block pt32 pb32" data-name="Text block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 pt32 pb32">
+                                <p class="lead o_default_snippet_text text-muted" style="font-size: 26px;font-weight: 400;">
+                                    <a href="https://www.campaignmonitor.com/" target="_blank" class="rb_text_primary">Campaign Monitor</a> is the leading provider of professional-grade email marketing and automation software for growing businesses. More than 2 million people at 200,000 companies worldwide, including BuzzFeed, Coca-Cola, Disney, Rip Curl and the San Diego Chargers, use Campaign Monitor to run email marketing campaigns that deliver results for their business.
+                                </p>
+                            </div>
+                            <div class="col-lg-4 pt32 pb32">
+                                <div class="rd-box card p-5 rb-box-shadow">
+                                    <div class="companign">
+                                        <img src="/website_blueribbon/static/src/img/campaignmonitor-logo.png"/>
+                                    </div>
+                                    <div class="mt-4">
+                                        <h6>INDUSTRY</h6>
+                                    </div>
+                                    <div class="text-muted">
+                                        Computer Software
+                                    </div>
+                                    <div class="mt-4">
+                                        <h6>LOCATION</h6>
+                                    </div>
+                                    <div class="text-muted">
+                                        San Francisco, USA
+                                    </div>
+                                    <div class="mt-4">
+                                        <h6>BUSINESS OBJECTIVE</h6>
+                                    </div>
+                                    <div class="text-muted">
+                                        Converson Rate Optimization
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <p style="font-size: 26px;font-weight: 400;"><b>The challenge:</b><span class="text-muted"> Before working with ConversionLab, Campaign Monitor didn't have a process or resources for dedicated conversion rate optimization. Through their PPC agency they had seen amazing numbers in traffic, but had yet not tapped the full potential on converting visitors to signups for trial accounts.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="s_features pt32 pb32" data-name="Features" style="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 pt32 pb32 text-left">
+                                <h1 class="mb-4 rb_text_primary text-center" style="font-size:80px;">
+                                    33
+                                </h1>
+                                <h4 class="text-center">A/B tests performed</h4>
+                                <p style="font-size:22px;">
+                                    <span class="text-muted">Based on solid hypothesis and across several pages.</span>
+                                </p>
+                            </div>
+                            <div class="col-lg-4 pt32 pb32 text-left">
+                                <h1 class="mb-4 rb_text_primary text-center" style="font-size:80px;">
+                                    1187%
+                                </h1>
+                                <h4 class="text-center">Uplift in conversion</h4>
+                                <p style="font-size:22px;">
+                                    <span class="text-muted">The total uplift combined at an average of 36% uplift per test.</span>
+                                </p>
+                            </div>
+                            <div class="col-lg-4 pt32 pb32 text-left">
+                                <h1 class="mb-4 rb_text_primary text-center" style="font-size:80px;">
+                                    64%
+                                </h1>
+                                <h4 class="text-center">Reduction in CAC</h4>
+                                <p style="font-size:22px;">
+                                    <span class="text-muted">increased conversion rates means reduced customer acquisition cost.</span>
+                                </p>
+                            </div>
+                      </div>
+                    </div>
+                </section>
+
+
+                <section class="s_cover parallax s_text_image pt32 pb32" data-name="Text - Image">
+                    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/website_blueribbon/static/src/img/how-we-did.jpg'); background-position: 50% 0;"></span>
+                    <div class="container">
+                        <div class="row align-items-start">
+                            <div class="col-lg-6 pt16 pb16"></div>
+                            <div class=" col-lg-6 pt16 pb16">
+                                <h1 class="rb-white pt-5 mb-5">How we did it</h1>
+                                <div class="d-flex mb-5 rb-white">
+                                    <div class="pr-4">
+                                        <img src="/website_blueribbon/static/src/img/research.svg"/>
+                                    </div>
+                                    <div class="text-left rb-white" style="font-size:22px;">
+                                        A/B testing for more signups on landing pages
+                                        <br></br><br></br>Paid traffic performed well in terms of clicks. We created landing pages and ran A/B tests to make sure those clicks turned into signups.
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-5 rb-white">
+                                    <div class="pr-4">
+                                        <img src="/website_blueribbon/static/src/img/lightbulb.svg"/>
+                                    </div>
+                                    <div class="text-left rb-white" style="font-size:22px;">
+                                        Exit Intent popups to capture abandoning visitors
+                                        <br></br><br></br>By adding exit intent we've been able to convert more than 10% of otherwise lost visitors to leads and a lead nurture funnel.
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-5 rb-white">
+                                    <div class="pr-4">
+                                        <img src="/website_blueribbon/static/src/img/target.svg"/>
+                                    </div>
+                                    <div class="text-left" style="font-size:22px;">
+                                        Dynamic content for improved relevancy
+                                        <br></br><br></br>Message match between ad and landing page was greatly improved using dynamic text replacement. 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="pt32 pb32 rb-winner-box overflow-hidden" data-name="Title">
+                    <div class="container pt-5">
+                        <div class="row s_nb_column_fixed">
+                            <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                                <div class="h2">A/B testing on landing pages
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="rd-description text-muted mt-4">
+                                            With A/B testing we have continued to tweak conversion rates with a total of 1187% across 33 tests on several landing pages. The average lift in conversion per test is at a stunning 36%. Below you can see one of these tests.
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-12 text-center bounceInLeft animated delay-1s">
+                                                    <div class="rb_box_round">
+                                                        <span class="rounded-circle bg-danger mt-5 mb-3 p-3 d-inline-block">
+                                                            A
+                                                        </span>
+                                                    </div>
+                                                    <img src="/website_blueribbon/static/src/img/cm-screenshot.jpg" class="w-100 rb-box-shadow"/>
+                                                </div>
+
+                                                <div class="col-lg-6 col-12 text-center bounceInRight animated delay-1s">
+                                                    <div class="rb_box_round">
+                                                        <span class="rounded-circle mt-5 mb-3 p-3 bg-info d-inline-block">
+                                                            B
+                                                        </span>
+                                                    </div>
+                                                    <div class="with_winner_image position-relative">
+                                                        <img src="/website_blueribbon/static/src/img/cm-screenshot.jpg" class="w-100 rb-box-shadow"/>
+                                                        <div class="icon_box rb_winner_box">
+                                                            <span class="rounded-circle bg-success">
+                                                                <img src="/website_blueribbon/static/src/img/medal-winner.png"/>
+                                                                <div class="h3 mt-2 text-center">WINNER</div>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="s_text_image pt-5 pb-0 pr-0 pl-0 overflow-hidden rb_banner_bg bg-light-banner" data-name="Image - Text">
+                    <div class="col-12">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-7 p-0">
+                                <h1 class="rd-title mb-4 d-flex">
+                                    <span style="font-family: Gravitas One;font-weight: 400;font-size: 85px;margin-top: -26px;">“</span>
+                                    ConversionLab has helped Campaign Monitor grow our business by optimizing our landing pages. We’ve increased conversion rates by 260% and seen a significant reduction in customer acquisition cost. We are very happy with the results!
+                                </h1>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div style="font-size:18px;"><b>Shamita Jayakumar, Senior Marketing Manager</b></div>
+                                            <img src="/website_blueribbon/static/src/img/campaignmonitor-logo.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 p-0">
+                                <img src="/website_blueribbon/static/src/img/shamita-crop-transp.png" class="img img-fluid ml-0" style="width: 900px;max-width: unset;transform: translate(-140px, 0px);"/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="pt32 pb32 rb-winner-box bg-light rb_intent_popups">
+                    <div class="container pt-5">
+                        <div class="row s_nb_column_fixed">
+                            <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                                <div class="container">
+                                    <div class="row">
+                                        <h1 class="mb-4 mt-4 text-center">10.8% of users about to abandon the landing pages converted with Exit Intent popups</h1>
+                                        <div class="rd-description text-muted mt-4">
+                                            <p class="text-muted" style="font-size:22px;">
+                                                Campaign Monitor converted 271 abandoning visitors into leads in just one month by offering their email marketing guide to users just as they are about to leave the page. 
+                                            </p>
+                                            <p class="text-muted" style="font-size:22px;">
+                                                “We haven’t had to create any new content or pages,” sais Shamita Jayakumar, Senior Marketing Manager at Campaign Monitor. “Instead, we’re leveraging the content we already have and getting it in front of marketers who can use it. It really has been a case of creating something from nothing.”
+                                            </p>
+                                        </div>
+                                        <div class="col-12 mt-5">
+                                            <div class="row">
+                                                <div class="col-md-12 text-center">
+                                                    <img src="/website_blueribbon/static/src/img/cm-screen-modern-guidebook.png" class="rb-box-shadow rb-max-100 bounceIn animated delay-1s"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="pt32 pb32 rb-winner-box rb-ad-block" data-name="Title">
+                    <div class="container pt-5">
+                        <div class="row s_nb_column_fixed">
+                            <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="text-center w-100">
+                                            <h1 class="mb-4 mt-4">Dynamic page content for increased relevancy</h1>
+                                        </div>
+                                        <div class="rd-description text-muted mt-4">
+                                            <p class="text-muted" style="font-size:22px;">
+                                                By using dynamic text replacement we can tailor the content to match each and every ad on Google Ads without having to create multiple pages. The tight message match ensures higher relevancy for the user - and Google rewards you with higher quality score as they too will see the message match. The below example gave a 58% uplift in conversion rates using dynamic text replacement. 
+                                            </p>
+                                        </div>
+                                        <div class="col-12 mt-5 pt-5 image-box-group">
+                                            <div class="row pt-5">
+                                                <div class="col-lg-6 col-12 mb-3 text-center">
+                                                    <div class="arow_box">
+                                                        <img src="/website_blueribbon/static/src/img/arrow-right-messagematch.png" class="w-100"/>    
+                                                    </div>
+                                                    <img src="/website_blueribbon/static/src/img/ad-elegantly-simple.png" class="mb-3 rb-box-shadow mt-5 w-100"/>
+                                                    <img src="/website_blueribbon/static/src/img/ad-professional-software.png" class="rb-box-shadow w-100"/>
+                                                </div>
+                                                <div class="col-lg-6 col-12 text-center">
+                                                    <img src="/website_blueribbon/static/src/img/lp-cm-dynamic-canvas.jpg" class="mb-3 rb-box-shadow w-100"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="rd-hr-block">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="line">
+                                <span class="rd-line"/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="s_features pt32 pb32 rb-feature-title" data-name="Features" style="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h1>Our optimization process</h1>
+                            </div>
+                            <div class="process_box col-12">
+                                <div class="row">
+                                    <div class="col-lg-3 col-xs-3 pt32 pb32 text-center rd-description-box">
+                                        <img src="/website_blueribbon/static/src/img/target.svg" class="img img-fluid ml-0 mb-5"/>
+                                        <div class="process">
+                                            <div class="rb-dot"/>
+                                        </div>
+                                        <h6 class="mb-4 mt-4">
+                                            <span>
+                                                <span>1. DEFINE GOALS</span>
+                                            </span>
+                                        </h6>
+                                        <p>
+                                            <span class="text-muted">First we establish your landing page goal. Do you need more leads, increase signups or drive sales? </span>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-3 col-xs-3 pt32 pb32 text-center rd-description-box">
+                                        <img src="/website_blueribbon/static/src/img/search.svg" class="img img-fluid ml-0 mb-5"/>
+                                        <div class="process">
+                                            <div class="rb-dot"/>
+                                        </div>
+                                        <h6 class="mb-4 mt-4">
+                                            <span>
+                                                <span>2. INSIGHT &amp; HYPOTHESIS</span>
+                                            </span>
+                                        </h6>
+                                        <p>
+                                            <span class="text-muted">Based on insight, experience and analysis we create our hypothesis for testing "If we implement X we expect outcome Y".</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-3 col-xs-3 pt32 pb32 text-center rd-description-box">
+                                        <img src="/website_blueribbon/static/src/img/design-tools.svg" class="img img-fluid ml-0 mb-5"/>
+                                        <div class="process">
+                                            <div class="rb-dot"/>
+                                        </div>
+                                        <h6 class="mb-4 mt-4">
+                                            <span>
+                                                <span>3. DESIGN &amp; IMPLEMENT</span>
+                                            </span>
+                                        </h6>
+                                        <p>
+                                            <span class="text-muted">We design your page, write the copy, code and implement using Unbounce and integrate with your current leads-flow.</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-3 col-xs-3 pt32 pb32 text-center rd-description-box">
+                                        <img src="/website_blueribbon/static/src/img/research.svg" class="img img-fluid ml-0 mb-5"/>
+                                        <div class="process">
+                                            <div class="rb-dot"/>
+                                        </div>
+                                        <h6 class="mb-4 mt-4">
+                                            <span>
+                                                <span>4. TEST &amp; REPORT</span>
+                                            </span>
+                                        </h6>
+                                        <p>
+                                            <span class="text-muted">To validate our hypothesis for improvement we run A/B split tests and report to you on the progress on a weekly basis.</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="s_cover parallax bg-black-50 pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="0" data-name="Cover" style="background-image: none;">
+                    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/website_blueribbon/static/src/img/clab-desk.jpg'); background-position: 50% 0;"/>
+                    <div class="container">
+                        <div class="row s_nb_column_fixed">
+                            <div class="col-lg-12 s_title" data-name="Title">
+                                <h1 class="s_title_thin text-center">Supercharge your conversion rates now</h1>
+                            </div>
+                            <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                                <p class="lead" style="text-align: center;">We make sure you get more leads by creating and optimizing high performing landing pages.</p>
+                            </div>
+                            <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                                <a data-target="#rb-model-popup" data-toggle="modal" class="btn btn-outline-primary mt-4 mb-4 rd-custom-button">I WANT HELP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="s_references bg-200 pt16 pb16" data-name="References">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 mt-4 mt-4">
+                                <h3 class="text-center text-muted">
+                                    HAPPY CUSTOMERS
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5 mb-5">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-2 col-sm-3 col-6 text-center mb-3">
+                                <img src="/website_blueribbon/static/src/img/logo-campaign-monitor.png" class="img img-fluid"/>
+                            </div>
+                            <div class="col-lg-2 col-sm-3 col-6 text-center mb-3">
+                                <img src="/website_blueribbon/static/src/img/logo-eiendomsmegler.png" class="img img-fluid"/>
+                            </div>
+                            <div class="col-lg-2 col-sm-3 col-6 text-center mb-3">
+                                <img src="/website_blueribbon/static/src/img/logo-questback.png" class="img img-fluid"/>
+                            </div>
+                            <div class="col-lg-2 col-sm-3 col-6 text-center mb-3">
+                                <img src="/website_blueribbon/static/src/img/logo-signicat.png" class="img img-fluid"/>
+                            </div>
+                            <div class="col-lg-2 col-sm-3 col-6 text-center mb-3">
+                                <img src="/website_blueribbon/static/src/img/logo-storebrand.png" class="img img-fluid"/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

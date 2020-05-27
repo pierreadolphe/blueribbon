@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="rb_blueribbon_banner" name="Blueribbon Banner">
+        <section class="s_text_image pt32 rb_banner_bg rb_blueribbon_banner">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 pt16">
+                        <img src="/website_blueribbon/static/src/img/poster.png" class="img img-fluid ml-0"/>
+                        <div class="rd-image-title text-muted">
+                            Hello! I'm Finge,<br></br>
+                            Founder and Conversion Rockstar.
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt16 pb16">
+                        <h1 class="rd-title mb-4">Supercharge your conversion rates</h1>
+                        <div class="rd-description text-muted">
+                            <span>We design high converting landing pages and optimize them with A/B testing to give you more signups, more leads and more customers.</span>
+                        </div>
+                        <div class="s_btn pt16 pb16 text-left d-inline-block mt-4 rb_arrow_box" data-name="Button">
+                            <a class="btn btn-outline-primary mb-2 rd-custom-button" data-toggle="modal" data-target="#rb-model-popup">GET A FREE CONSULT</a>
+                            <div class="arrow">
+                                <img src="/website_blueribbon/static/src/img/arrow.png" class="img img-fluid ml-0" alt="Odoo • Image and Text"/>
+                            </div>
+                            <div class="btn-box-info text-muted text-center pl-1 pl-1">
+                                Send us your details and we'll get back to you <br></br> to set up a free intro-call.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_blueribbon_title" name="Blueribbon Title">
+        <section class="rb_blueribbon_title pt32 pb32">
+            <div class="container pt-5">
+                <div class="row s_nb_column_fixed">
+                    <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                        <h2 class="mb-4 mt-4">We give you increased results – every time!</h2>
+                        <div class="container">
+                            <div class="row">
+                                <div class="rd-description">
+                                    Benefit from our expertise on designing and managing conversion centered landing pages for your paid traffic. Once we've designed and built your landing page, we optimize it to perform even better over time.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_blueribbon_achievement" name="Achievement">
+        <section class="s_features pt32 pb32 rb_blueribbon_achievement" data-name="Features" style="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 pt32 pb32 text-left">
+                        <div class="oe_image_data">
+                            <img src="/website_blueribbon/static/src/img/target.svg" class="img img-fluid ml-0 mb-3"/>
+                        </div>
+                        <h1 class="mb-4">
+                            <span>
+                                <span>Increase conversion rates</span>
+                            </span>
+                        </h1>
+                        <p>
+                            <span class="text-muted">Highly targeted landing pages will increase your results, and optimization with A/B testing takes you to the next level.</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 pt32 pb32 text-left">
+                        <div class="oe_image_data">
+                            <img src="/website_blueribbon/static/src/img/stats-loss.svg" class="img img-fluid ml-0 mb-3"/>
+                        </div>
+                        <h1 class="mb-4">
+                            <span>
+                                <span>Reduce cost per acquisition</span>
+                            </span>
+                        </h1>
+                        <p>
+                            <span class="text-muted">Higher conversion rates means you get more business from your current traffic and reduce cost per acquisition.</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 pt32 pb32 text-left">
+                        <div class="oe_image_data">
+                            <img src="/website_blueribbon/static/src/img/trophy.svg" class="img img-fluid ml-0 mb-3"/>
+                        </div>
+                        <h1 class="mb-4">
+                            <span>
+                                <span>Improve your ROI</span>
+                            </span>
+                        </h1>
+                        <p>
+                            <span class="text-muted">Stop wasting money on more traffic. Get more leads on your existing traffic instead. At the end, this improves your ROI significantly.</span>
+                        </p>
+                    </div>
+              </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_blueribbon_progress" name="Blueribbon Progress">
+        <section class="rb_blueribbon_progress s_text_image pt-5 pb-0 pr-0 pl-0 overflow-hidden bg-light-banner" data-name="Image - Text">
+            <div class="col-12">
+                <div class="row align-items-end">
+                    <div class="col-lg-7 p-0" style="z-index: 1;">
+                        <h1 class="rd-title mb-4 d-flex">
+                            <span style="font-family: Gravitas One;font-weight: 400;font-size: 85px;margin-top: -26px;">“</span>
+                            ConversionLab has helped Campaign Monitor grow our business by optimizing our landing pages. We’ve increased conversion rates by 260% and seen a significant reduction in customer acquisition cost. We are very happy with the results!
+                        </h1>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-md-8 mb-3">
+                                    <div style="font-size:18px;"><b>Shamita Jayakumar, Senior Marketing Manager</b></div>
+                                    <img src="/website_blueribbon/static/src/img/campaignmonitor-logo.png"/>
+                                </div>
+                                <div class="col-md-4 text-right">
+                                    <a href="/case-study" class="rb_text_secondery d-block overflow-hidden" style="text-overflow: ellipsis;"><span class="label">SEE CASE STUDY »</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-lg-4 pt32 pb32 text-center col-sm-4">
+                                    <h1 class="mb-4 rb_text_primary text-center" style="font-size:45px;">
+                                        33
+                                    </h1>
+                                    <h4 class="text-center">A/B tests performed</h4>
+                                    <p style="font-size:22px;">
+                                        <span class="text-muted">Based on solid hypothesis and across several pages.</span>
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 pt32 pb32 text-center col-sm-4">
+                                    <h1 class="mb-4 rb_text_primary text-center" style="font-size:45px;">
+                                        1187%
+                                    </h1>
+                                    <h4 class="text-center">Uplift in conversion</h4>
+                                    <p style="font-size:22px;">
+                                        <span class="text-muted">The total uplift combined at an average of 36% uplift per test.</span>
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 pt32 pb32 text-center col-sm-4">
+                                    <h1 class="mb-4 rb_text_primary text-center" style="font-size:45px;">
+                                        64%
+                                    </h1>
+                                    <h4 class="text-center">Reduction in CAC</h4>
+                                    <p style="font-size:22px;">
+                                        <span class="text-muted">increased conversion rates means reduced customer acquisition cost.</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 p-0">
+                        <img src="/website_blueribbon/static/src/img/shamita-crop-transp.png" class="img img-fluid ml-0" style="width: 900px;max-width: unset;transform: translate(-140px, 0px);"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_blueribbon_our_services" name="Our Services">
+        <section class="s_three_columns rd_three_columns rb_blueribbon_our_services bg-200 pt32 pb32" id="services">
+            <div class="container">
+                <div class="row d-flex align-items-stretch">
+                    <div class="col-12">
+                        <h2 class="mt-5 text-center mb-5">
+                            <span>Our services</span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                        <div class="card bg-white p-4">
+                            <div class="img_box text-center pt-3 pb-3">
+                                <img class="card-img-top" src="/website_blueribbon/static/src/img/design-tools.svg"/>
+                                <span class="h1 text-muted ml-2 mr-2">+</span>
+                                <img class="card-img-top" src="/website_blueribbon/static/src/img/research.svg"/>
+                                <span class="h1 text-muted ml-2 mr-2">+</span>
+                                <img class="card-img-top" src="/website_blueribbon/static/src/img/stats.svg"/>
+                            </div>
+                            <div class="card-body text-center">
+                                <h3 class="card-title o_default_snippet_text">Feature One</h3>
+                                <p class="card-text o_default_snippet_text">Serious about optimization? Outsource everything to us. We design, optimize,  analyze and report on your results on a monthly retainer.</p>
+                                <a data-target="#rb-model-popup" data-toggle="modal" class="btn btn-outline-primary mt-4 mb-4 rd-custom-button small">GET A FREE CONSULT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                        <div class="card bg-white p-4">
+                            <div class="img_box text-center pt-3 pb-3">
+                                <img class="card-img-top" src="/website_blueribbon/static/src/img/design-tools.svg"/>
+                            </div>
+                            <div class="card-body text-center">
+                                <h3 data-target="#rb-model-popup" data-toggle="modal" class="card-title o_default_snippet_text">Design only</h3>
+                                <p class="card-text o_default_snippet_text">We create your custom landing page to meet your conversion objective and brand, including copy and design at a fixed price.</p>
+                                <a data-target="#rb-model-popup" data-toggle="modal" class="btn btn-outline-primary mt-4 mb-4 rd-custom-button small">GET A FREE CONSULT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                        <div class="card bg-white p-4">
+                            <div class="img_box text-center pt-3 pb-3">
+                                <img class="card-img-top" src="/website_blueribbon/static/src/img/lightbulb.svg"/>
+                            </div>
+                            <div class="card-body text-center">
+                                <h3 class="card-title o_default_snippet_text">Popups and stickybars</h3>
+                                <p class="card-text o_default_snippet_text">We design and manage popups that help you collect leads across your own website or landing page.</p>
+                                <a data-target="#rb-model-popup" data-toggle="modal" class="btn btn-outline-primary mt-4 mb-4 rd-custom-button small">GET A FREE CONSULT</a>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_blueribbon_optimization_process" name="Optimization process">
+        <section class="s_features pt32 pb32 rb_blueribbon_optimization_process mt-5 rb-feature-title" style="" id="#process">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mt-5">
+                        <h1>Our optimization process</h1>
+                    </div>
+                    <div class="process_box col-12">
+                        <div class="row">
+                            <div class="col-lg-3 col-xs-3 pt32 pb32 text-center rd-description-box">
+                                <img src="/website_blueribbon/static/src/img/target.svg" class="img img-fluid ml-0 mb-3"/>
+                                <div class="process">
+                                    <div class="rb-dot"/>
+                                </div>
+                                <h6 class="mb-4 mt-4">
+                                    <span>
+                                        <span>1. DEFINE GOALS</span>
+                                    </span>
+                                </h6>
+                                <p>
+                                    <span class="text-muted">First we establish your landing page goal. Do you need more leads, increase signups or drive sales? </span>
+                                </p>
+                            </div>
+                            <div class="col-lg-3 col-xs-3 pt32 pb32 text-center rd-description-box">
+                                <img src="/website_blueribbon/static/src/img/search.svg" class="img img-fluid ml-0 mb-3"/>
+                                <div class="process">
+                                    <div class="rb-dot"/>
+                                </div>
+                                <h6 class="mb-4 mt-4">
+                                    <span>
+                                        <span>2. INSIGHT &amp; HYPOTHESIS</span>
+                                    </span>
+                                </h6>
+                                <p>
+                                    <span class="text-muted">Based on insight, experience and analysis we create our hypothesis for testing "If we implement X we expect outcome Y".</span>
+                                </p>
+                            </div>
+                            <div class="col-lg-3 col-xs-3 pt32 pb32 text-center rd-description-box">
+                                <img src="/website_blueribbon/static/src/img/design-tools.svg" class="img img-fluid ml-0 mb-3"/>
+                                <div class="process">
+                                    <div class="rb-dot"/>
+                                </div>
+                                <h6 class="mb-4 mt-4">
+                                    <span>
+                                        <span>3. DESIGN &amp; IMPLEMENT</span>
+                                    </span>
+                                </h6>
+                                <p>
+                                    <span class="text-muted">We design your page, write the copy, code and implement using Unbounce and integrate with your current leads-flow.</span>
+                                </p>
+                            </div>
+                            <div class="col-lg-3 col-xs-3 pt32 pb32 text-center rd-description-box">
+                                <img src="/website_blueribbon/static/src/img/research.svg" class="img img-fluid ml-0 mb-3"/>
+                                <div class="process">
+                                    <div class="rb-dot"/>
+                                </div>
+                                <h6 class="mb-4 mt-4">
+                                    <span>
+                                        <span>4. TEST &amp; REPORT</span>
+                                    </span>
+                                </h6>
+                                <p>
+                                    <span class="text-muted">To validate our hypothesis for improvement we run A/B split tests and report to you on the progress on a weekly basis.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_blueribbon_design" name="Design Block">
+        <section class="rb_blueribbon_design s_text_image pt32 pb32">
+                    <div class="container">
+                        <div class="row align-items-start">
+                            <div class="col-lg-6 pt16 pb16 rb-masonary">
+                                <span class="rb-big-image d-inline-block mb-4">
+                                    <img src="/website_blueribbon/static/src/img/lp-em.jpg" class="img img-fluid mx-auto rb-box-shadow"/>
+                                </span>
+                                <span class="rb-big-image d-inline-block mb-4">
+                                    <img src="/website_blueribbon/static/src/img/campaignmonitor.jpg" class="img img-fluid mx-auto rb-box-shadow"/>
+                                </span>
+                                <span class="rb-big-image d-inline-block mt-5 mb-4">
+                                    <img src="/website_blueribbon/static/src/img/lp-ansarada.jpg" class="img img-fluid mx-auto rb-box-shadow"/>
+                                </span>
+                                <span class="rb-big-image d-inline-block mb-4">
+                                    <img src="/website_blueribbon/static/src/img/lp-signicat.jpg" class="img img-fluid mx-auto rb-box-shadow"/>
+                                </span>
+                            </div>
+                            <div class=" col-lg-6 pt16 pb16">
+                                <div class="h4 rb_text_primary">DESIGN ONLY</div>
+                                <h2>Conversion centered landing pages</h2>
+                                <div class="text-muted mb-4">
+                                    We have designed high performing landing pages for the past 5 years - for large enterprises and small businesses alike.
+                                </div>
+                                <h4>Fast delivery</h4>
+                                <div class="text-muted mb-4">
+                                    Get a high converting landing page in 5 business days. We know how critical time to market is.
+                                </div>
+                                <h4>On brand</h4>
+                                <div class="text-muted mb-4">
+                                    We create custom landing pages tailored to your brand making sure it fits with all your marketing material.
+                                </div>
+                                <h4>Easy to implement</h4>
+                                <div class="text-muted mb-4">
+                                    Your landing page will be delivered as a live URL and you can use the code to implement on your platform of choice.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    </template>
+
+    <template id="rb_hr_line" name="Line">
+        <section class="rd-hr-block rb_hr_line">
+            <div class="col-12">
+                <div class="row">
+                    <div class="line">
+                        <span class="rd-line"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_sticky_bars" name="Sticky Banner">
+        <section class="rb_sticky_bars s_text_image pt32 pb32" data-name="Text - Image">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col-lg-4 pt16 pb16">
+                        <div class="h4 rb_text_primary">POPUPS &amp; STICKY BARS</div>
+                        <h2>Convert more of your website traffic</h2>
+                        <div class="text-muted mb-4">
+                            We convert idle or abandoning visitors to leads by triggering targeted offers or valuable content at the perfect moment.
+                        </div>
+                        <h4>Easy to implement on your website</h4>
+                        <div class="text-muted mb-4">
+                            Add a short snippet of code to your website is all it takes. We design, host and manage them for you.
+                        </div>
+                        <h4>Targeting the right users</h4>
+                        <div class="text-muted mb-4">
+                            You can target users by page level, at a special time or from specific traffic sources (like paid, social and organic)
+                        </div>
+                        <h4>Triggering options</h4>
+                        <div class="text-muted mb-4">
+                            On arrival, after delay, on scroll, on click or on exit. You decide how you want them to be triggered.
+                        </div>
+
+                    </div>
+                    <div class="offset-md-2 col-lg-6 pt16 pb16">
+                        <div class="rb-big-image">
+                            <img src="/website_blueribbon/static/src/img/popup-signicat.jpg" class="img img-fluid mx-auto rb-box-shadow bounceIn animated delay-1s"/>
+                        </div>
+                        <div class="rb-small-image mt-5">
+                            <img src="/website_blueribbon/static/src/img/sticky-signicat.jpg" class="img img-fluid mx-auto rb-box-shadow bounceInUp animated delay-1s"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+
+    <template id="rb_bg_light" name="Light Banner">
+        <section class="s_cover parallax rb_bg_light bg-black-50 pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="0" style="background-image: none;">
+            <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/website_blueribbon/static/src/img/clab-desk.jpg'); background-position: 50% 0;"/>
+            <div class="container">
+                <div class="row s_nb_column_fixed">
+                    <div class="col-lg-12 s_title" data-name="Title">
+                        <h1 class="s_title_thin text-center">Supercharge your conversion rates now</h1>
+                    </div>
+                    <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                        <p class="lead" style="text-align: center;">We make sure you get more leads by creating and optimizing high performing landing pages.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                        <a data-target="#rb-model-popup" data-toggle="modal" class="btn btn-outline-primary mt-4 mb-4 rd-custom-button">I WANT HELP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_happy_customer" name="Happy Customer">
+        <section class="s_references bg-200 pt16 pb16" data-name="References">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-4 mt-4">
+                        <h3 class="text-center text-muted">
+                            HAPPY CUSTOMERS
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-5 mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 col-sm-3 col-6 text-center mb-3">
+                        <img src="/website_blueribbon/static/src/img/logo-campaign-monitor.png" class="img img-fluid"/>
+                    </div>
+                    <div class="col-lg-2 col-sm-3 col-6 text-center mb-3">
+                        <img src="/website_blueribbon/static/src/img/logo-eiendomsmegler.png" class="img img-fluid"/>
+                    </div>
+                    <div class="col-lg-2 col-sm-3 col-6 text-center mb-3">
+                        <img src="/website_blueribbon/static/src/img/logo-questback.png" class="img img-fluid"/>
+                    </div>
+                    <div class="col-lg-2 col-sm-3 col-6 text-center mb-3">
+                        <img src="/website_blueribbon/static/src/img/logo-signicat.png" class="img img-fluid"/>
+                    </div>
+                    <div class="col-lg-2 col-sm-3 col-6 text-center mb-3">
+                        <img src="/website_blueribbon/static/src/img/logo-storebrand.png" class="img img-fluid"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+
+    <template id="rb_parallax_banner" name="Parallax Banner">
+        <section class="s_cover parallax rb_parallax_banner s_parallax_is_fixed bg-black-50 pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" style="background-image: none;">
+            <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/website_blueribbon/static/src/img/campaign-monitor.jpg'); background-position: 50% 0;"></span>
+            <div class="container">
+                <div class="row s_nb_column_fixed">
+                    <div class="col-lg-12 s_title" data-name="Title">
+                        <div class="row">
+                            <div class="col-lg-6 s_title" data-name="Title">
+                                <h4 class="s_title_thin" style="text-align: left;">CASE STUDY</h4>
+                                <h1 class="s_title_thin" style="text-align: left; font-size: 62px;">Campaign Monitor</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                        <div class="row">
+                            <div class="col-lg-6" data-name="Title">
+                                <p class="lead" style="text-align: left;">
+                                    See how we increased conversion rates by more than 1180% for one of the world’s leading providers of email marketing and automation software.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_container_box" name="Container Box">
+        <section class="s_text_block rb_container_box pt32 pb32">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 pt32 pb32">
+                        <p class="lead o_default_snippet_text text-muted" style="font-size: 26px;font-weight: 400;">
+                            <a href="https://www.campaignmonitor.com/" target="_blank" class="rb_text_primary">Campaign Monitor</a> is the leading provider of professional-grade email marketing and automation software for growing businesses. More than 2 million people at 200,000 companies worldwide, including BuzzFeed, Coca-Cola, Disney, Rip Curl and the San Diego Chargers, use Campaign Monitor to run email marketing campaigns that deliver results for their business.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 pt32 pb32">
+                        <div class="rd-box card p-5 rb-box-shadow">
+                            <div class="companign">
+                                <img src="/website_blueribbon/static/src/img/campaignmonitor-logo.png"/>
+                            </div>
+                            <div class="mt-4">
+                                <h6>INDUSTRY</h6>
+                            </div>
+                            <div class="text-muted">
+                                Computer Software
+                            </div>
+                            <div class="mt-4">
+                                <h6>LOCATION</h6>
+                            </div>
+                            <div class="text-muted">
+                                San Francisco, USA
+                            </div>
+                            <div class="mt-4">
+                                <h6>BUSINESS OBJECTIVE</h6>
+                            </div>
+                            <div class="text-muted">
+                                Converson Rate Optimization
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 26px;font-weight: 400;"><b>The challenge:</b><span class="text-muted"> Before working with ConversionLab, Campaign Monitor didn't have a process or resources for dedicated conversion rate optimization. Through their PPC agency they had seen amazing numbers in traffic, but had yet not tapped the full potential on converting visitors to signups for trial accounts.</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_blueribbon_full_services" name="Full Services">
+        <section class="pt32 pb32 rb-winner-box rb_blueribbon_full_services overflow-hidden">
+            <div class="container pt-5">
+                <div class="row s_nb_column_fixed">
+                    <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                        <h4 class="mb-4 mt-4 rb_text_primary">FULL SERVICE</h4>
+                        <div class="h2">A/B testing reduced customer acquisition cost for Campaign Monitor
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="rd-description text-muted mt-4">
+                                    Campaign Monitor is one of the worlds leading Email Marketing software providers, and they partnered up with us at ConversionLab to get higher conversion rates. By systematically A/B testing landing pages we have contributed to reducing their customer acquisition cost by 60%.
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-12 text-center bounceInLeft animated delay-1s">
+                                            <div class="rb_box_round">
+                                                <span class="rounded-circle bg-danger mt-5 mb-3 p-3 d-inline-block">
+                                                    A
+                                                </span>
+                                            </div>
+                                            <img src="/website_blueribbon/static/src/img/cm-screenshot.jpg" class="w-100 rb-box-shadow"/>
+                                        </div>
+
+                                        <div class="col-lg-6 col-12 text-center bounceInRight animated delay-1s">
+                                            <div class="rb_box_round">
+                                                <span class="rounded-circle mt-5 mb-3 p-3 bg-info d-inline-block">
+                                                    B
+                                                </span>
+                                            </div>
+                                            <div class="with_winner_image position-relative">
+                                                <img src="/website_blueribbon/static/src/img/cm-screenshot.jpg" class="w-100 rb-box-shadow"/>
+                                                <div class="icon_box rb_winner_box">
+                                                    <span class="rounded-circle bg-success">
+                                                        <img src="/website_blueribbon/static/src/img/medal-winner.png"/>
+                                                        <div class="h3 mt-2 text-center">WINNER</div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_performance" name="Features">
+        <section class="s_features pt32 pb32 rb_performance" style="Performance">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 pt32 pb32 text-left">
+                        <h1 class="mb-4 rb_text_primary text-center" style="font-size:80px;">
+                            33
+                        </h1>
+                        <h4 class="text-center">A/B tests performed</h4>
+                        <p style="font-size:22px;">
+                            <span class="text-muted">Based on solid hypothesis and across several pages.</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 pt32 pb32 text-left">
+                        <h1 class="mb-4 rb_text_primary text-center" style="font-size:80px;">
+                            1187%
+                        </h1>
+                        <h4 class="text-center">Uplift in conversion</h4>
+                        <p style="font-size:22px;">
+                            <span class="text-muted">The total uplift combined at an average of 36% uplift per test.</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 pt32 pb32 text-left">
+                        <h1 class="mb-4 rb_text_primary text-center" style="font-size:80px;">
+                            64%
+                        </h1>
+                        <h4 class="text-center">Reduction in CAC</h4>
+                        <p style="font-size:22px;">
+                            <span class="text-muted">increased conversion rates means reduced customer acquisition cost.</span>
+                        </p>
+                    </div>
+              </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_banner_text" name="Banner Text">
+        <section class="s_cover parallax rb_banner_text s_text_image pt32 pb32">
+            <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/website_blueribbon/static/src/img/how-we-did.jpg'); background-position: 50% 0;"></span>
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col-lg-6 pt16 pb16"></div>
+                    <div class=" col-lg-6 pt16 pb16">
+                        <h1 class="rb-white pt-5 mb-5">How we did it</h1>
+                        <div class="d-flex mb-5 rb-white">
+                            <div class="pr-4">
+                                <img src="/website_blueribbon/static/src/img/research.svg"/>
+                            </div>
+                            <div class="text-left rb-white" style="font-size:22px;">
+                                A/B testing for more signups on landing pages
+                                <br></br><br></br>Paid traffic performed well in terms of clicks. We created landing pages and ran A/B tests to make sure those clicks turned into signups.
+                            </div>
+                        </div>
+                        <div class="d-flex mb-5 rb-white">
+                            <div class="pr-4">
+                                <img src="/website_blueribbon/static/src/img/lightbulb.svg"/>
+                            </div>
+                            <div class="text-left rb-white" style="font-size:22px;">
+                                Exit Intent popups to capture abandoning visitors
+                                <br></br><br></br>By adding exit intent we've been able to convert more than 10% of otherwise lost visitors to leads and a lead nurture funnel.
+                            </div>
+                        </div>
+                        <div class="d-flex mb-5 rb-white">
+                            <div class="pr-4">
+                                <img src="/website_blueribbon/static/src/img/target.svg"/>
+                            </div>
+                            <div class="text-left" style="font-size:22px;">
+                                Dynamic content for improved relevancy
+                                <br></br><br></br>Message match between ad and landing page was greatly improved using dynamic text replacement.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_intent_popups" name="Intent Popups">
+        <section class="pt32 pb32 rb-winner-box bg-light rb_intent_popups">
+            <div class="container pt-5">
+                <div class="row s_nb_column_fixed">
+                    <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                        <div class="container">
+                            <div class="row">
+                                <h1 class="mb-4 mt-4 text-center">10.8% of users about to abandon the landing pages converted with Exit Intent popups</h1>
+                                <div class="rd-description text-muted mt-4">
+                                    <p class="text-muted" style="font-size:22px;">
+                                        Campaign Monitor converted 271 abandoning visitors into leads in just one month by offering their email marketing guide to users just as they are about to leave the page.
+                                    </p>
+                                    <p class="text-muted" style="font-size:22px;">
+                                        “We haven’t had to create any new content or pages,” sais Shamita Jayakumar, Senior Marketing Manager at Campaign Monitor. “Instead, we’re leveraging the content we already have and getting it in front of marketers who can use it. It really has been a case of creating something from nothing.”
+                                    </p>
+                                </div>
+                                <div class="col-12 mt-5">
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <img src="/website_blueribbon/static/src/img/cm-screen-modern-guidebook.png" class="rb-box-shadow rb-max-100 bounceIn animated delay-1s"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="rb_increased_relevancy" name="Increased Relevancy">
+        <section class="pt32 pb32 rb-winner-box rb-ad-block rb_increased_relevancy">
+            <div class="container pt-5">
+                <div class="row s_nb_column_fixed">
+                    <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="text-center w-100">
+                                    <h1 class="mb-4 mt-4">Dynamic page content for increased relevancy</h1>
+                                </div>
+                                <div class="rd-description text-muted mt-4">
+                                    <p class="text-muted" style="font-size:22px;">
+                                        By using dynamic text replacement we can tailor the content to match each and every ad on Google Ads without having to create multiple pages. The tight message match ensures higher relevancy for the user - and Google rewards you with higher quality score as they too will see the message match. The below example gave a 58% uplift in conversion rates using dynamic text replacement.
+                                    </p>
+                                </div>
+                                <div class="col-12 mt-5 pt-5">
+                                    <div class="row pt-5">
+                                        <div class="col-lg-6 col-12 mb-3 text-center">
+                                            <div class="arow_box">
+                                                <img src="/website_blueribbon/static/src/img/arrow-right-messagematch.png" class="w-100"/>
+                                            </div>
+                                            <img src="/website_blueribbon/static/src/img/ad-elegantly-simple.png" class="mb-3 rb-box-shadow mt-5 w-100"/>
+                                            <img src="/website_blueribbon/static/src/img/ad-professional-software.png" class="rb-box-shadow w-100"/>
+                                        </div>
+                                        <div class="col-lg-6 col-12 text-center">
+                                            <img src="/website_blueribbon/static/src/img/lp-cm-dynamic-canvas.jpg" class="mb-3 rb-box-shadow w-100"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+
+    <template id="rb_thank_you_snipp" name="Thank You">
+        <section class="s_text_image pt32 rb_banner_bg">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 pt16">
+                        <img src="/website_blueribbon/static/src/img/poster.png" class="img img-fluid ml-0"/>
+                        <div class="rd-image-title text-muted">
+                            Hello! I'm Finge,<br></br>
+                            Founder and Conversion Rockstar.
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt16 pb16">
+                        <h1 class="rd-title mb-4">
+                            Yay! Thank you for getting <br></br>
+                            in touch!
+                        </h1>
+                        <div class="rd-description text-muted">
+                            <span>We'll get in touch shortly to learn about your business and see how we can help you boost your conversion rates.</span>
+                        </div>
+                        <div class="s_btn pt16 pb16 text-left d-inline-block mt-4 rb_arrow_box" data-name="Button">
+                            <a href="/blog" class="btn btn-outline-primary mb-2 rd-custom-button">CHECK OUT OUR BLOG</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="website_blueribbon" inherit_id="website.snippets" name="Snippet BlueRibbon">
+        <xpath expr="//div[@id='o_scroll']" position="inside">
+            <div id="snippet_blueribbon" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-puzzle-piece"/> Website BlueRibbon
+                </div>
+                <div class="o_panel_body">
+                    <t t-snippet="website_blueribbon.rb_blueribbon_banner" t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_blueribbon_title" t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_blueribbon_achievement" t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_blueribbon_progress" t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_blueribbon_our_services"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_blueribbon_full_services"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_blueribbon_optimization_process"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_blueribbon_design"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_hr_line"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_sticky_bars"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_bg_light"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_happy_customer"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_parallax_banner"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_container_box"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_performance"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_banner_text"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_intent_popups"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_increased_relevancy"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                    <t t-snippet="website_blueribbon.rb_thank_you_snipp"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

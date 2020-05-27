@@ -1,0 +1,59 @@
+<odoo>
+    <template id="rb_thank_you" name="Thank You">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure rd-case-study rb_homepage">
+                <section class="s_text_image pt32 rb_banner_bg">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 pt16">
+                                <img src="/website_blueribbon/static/src/img/poster.png" class="img img-fluid ml-0"/>
+                                <div class="rd-image-title text-muted">
+                                    Hello! I'm Finge,<br></br>
+                                    Founder and Conversion Rockstar.
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pt16 pb16">
+                                <h1 class="rd-title mb-4">
+                                    Yay! Thank you for getting <br></br>
+                                    in touch!
+                                </h1>
+                                <div class="rd-description text-muted">
+                                    <span>We'll get in touch shortly to learn about your business and see how we can help you boost your conversion rates.</span>
+                                </div>
+                                <div class="s_btn pt16 pb16 text-left d-inline-block mt-4 rb_arrow_box" data-name="Button">
+                                    <a href="/blog" class="btn btn-outline-primary mb-2 rd-custom-button">CHECK OUT OUR BLOG</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_follow_us">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-12"/>
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-12 pt16">
+                                <div class="row mb-5 mt-5">
+                                    <div class="col-lg-12 col-12">
+                                        <h1 class="mb-5 mt-5 text-muted text-center">
+                                            Follow us
+                                        </h1>
+                                    </div>
+                                    <div class="col-lg-4 text-center col-md-4 col-sm-4 col-4">
+                                        <a class="rb-facebook-button" href="clkg/https/www.facebook.com" target=""><span class="btn btn-secondary">Facebook</span></a>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 text-center col-sm-4 col-4">
+                                        <a class="rb-twitter-button" href="clkg/https/www.twitter.com" target=""><span class="btn btn-secondary">Twitter</span></a>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 text-center col-sm-4 col-4">
+                                        <a class="rb-google-button" href="clkg/https/www.google.com" target=""><span class="btn btn-secondary">Google</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-12"/>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>
