@@ -1,0 +1,159 @@
+<odoo>
+    <template id="privacy_policy" name="privacy policy Page">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure rd-case-study">
+                <section class="s_cover parallax bg-black-50 pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Cover" style="background-image: none;min-height: 350px;">
+                    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/website_blueribbon/static/src/img/typing-on-laptop.jpeg'); background-position: 50% 0;"></span>
+                    <div class="container">
+                        <div class="row s_nb_column_fixed">
+                            <div class="col-lg-12 s_title text-center" data-name="Title">
+                                <div class="row">
+                                    <div class="col-lg-12 pt-5 pb-5 s_title" data-name="Title">
+                                        <h1 class="s_title_thin">Privacy Policy</h1>
+                                        <h4 class="s_title_thin">by Finge | May 24, 2018</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt32 pb32" data-name="Title">
+                    <div class="container pt-5">
+                        <div class="row s_nb_column_fixed">
+                            <div class="col-lg-12 s_title pt16 pb16" style="text-align: left;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="rd-description">
+                                                At ConversionLab, we are committed to maintaining the trust and confidence of our visitors to our website and subscribers to our newsletter. Here you’ll find information on how we treat data that we collect from visitors to our website when someone subscribes to our newsletter or submits a contact form.
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mt-5">
+                                            <h2>General information collection and use</h2>
+                                            <div class="rd-description">
+                                                ConversionLab collects information that personally identifies you in some circumstances, for example when you use our contact form or subscribe to our newsletter so that we can communicate with you by email or phone. The types of personal information we collect include name, contact details, organization, title, and information submitted in forms.
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mt-5">
+                                            <h2>Website usage information</h2>
+                                            <div class="rd-description">
+                                                When someone visits conversionlab.no we use a third party service, Google Analytics, to collect standard internet log information and details of visitor behavior patterns. We do this to find out things such as the number of visitors to the various parts of the site. This information is only processed in a way which does not identify anyone. We do not make and do not allow Google to make, any attempt to find out the identities of those visiting our website
+                                            </div>
+                                            <div class="rd-description">
+                                                Our site uses cookies dropped by us or third parties for a variety of purposes including to operate and personalize the website. Also, cookies may also be used to track how you use the site to target ads to you on other websites.
+                                            </div>
+                                            <div class="rd-description">
+                                                Cookies are pieces of information that a website transfers to your computer’s hard disk for record-keeping purposes. Most web browsers are set to accept cookies. ConversionLab uses cookies to make your use of our website and services as convenient as possible. Cookies are useful to estimate our number of visitors and to determine overall traffic patterns through our website.
+                                            </div>
+                                            <div class="rd-description">
+                                                If you do not wish to receive any cookies you may set your browser to refuse cookies.
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mt-5">
+                                            <h3>Cookies being used on our website:</h3>
+                                            <div class="rd-description mt-5">
+                                                <b>Source:</b> Google Analytics
+                                            </div>
+                                            <div class="rd-description">
+                                                <b>Purpose:</b> Track information about how users use our website, number of visitors, what links they used to get to the site and what pages they visit. We use this information to improve the user experience on our website. The cookies make sure all information remains anonymous.
+                                            </div>
+                                            <div class="rd-description">
+                                                Cookies from Google: _unam, _utma, _utmb, _utmc, _utmt, _utmz, _ga, gat.<a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"> Read more about these and how they work at Google.</a>
+                                            </div>
+                                            <div class="rd-description mt-5">
+                                                <b>Source:</b> Facebook
+                                            </div>
+                                            <div class="rd-description">
+                                                <b>Purpose:</b> Collect information about visitors to tailor advertising on Facebook.
+                                            </div>
+                                            <div class="rd-description">
+                                                <b>Cookies:</b> Facebook Connect, Facebook Custom Audience.<a href="https://www.facebook.com/full_data_use_policy"> Read more about these at Facebook.</a>
+                                            </div>
+
+
+                                            <div class="rd-description mt-5">
+                                                <b>Source:</b>Hotjar
+                                            </div>
+                                            <div class="rd-description">
+                                                <b>Purpose:</b> Track information about how users interact with our website. We use this information to improve the user experience on our website. The cookies make sure all information remains anonymous.
+                                            </div>
+                                            <div class="rd-description">
+                                                <b>Cookies from Google:</b> _hjClosedSurveyInvites, _hjDonePolls, _hjMinimizedPolls, _hjDoneTestersWidgets, _hjMinimizedTestersWidgets, _hjIncludedInSample, _hjShownFeedbackMessage.<a href="https://www.hotjar.com/legal/policies/cookie-information"> Read more about these and how they work at Hotjar.</a>
+                                            </div>
+
+
+                                            <div class="rd-description mt-5">
+                                                <b>Source:</b>Hubspot
+                                            </div>
+                                            <div class="rd-description">
+                                                <b>Purpose:</b> Collect information about how you interact with our website and allow us to remember you. We use this information in order to improve and customize your browsing experience and for analytics and metrics about our visitors both on this website and other media.
+                                            </div>
+                                            <div class="rd-description">
+                                                <b>Cookies from Google:</b> __hs_opt_out, __hs_do_not_track, hs_ab_test, hs-messages-is-open, hs-messages-hide-welcome-message, __hsmem, __hstc, hubspotutk, __hssc, __hssrc, messagesUtk.<a href="https://knowledge.hubspot.com/reports/what-cookies-does-hubspot-set-in-a-visitor-s-browser"> Read more details about how they work at Hubspot.</a>
+                                            </div>
+
+
+                                            <div class="rd-description mt-5">
+                                                <b>Source:</b>Unbounce
+                                            </div>
+                                            <div class="rd-description">
+                                                <b>Purpose:</b> These cookies are used to collect information about how visitors interact with our site and landing pages. We use the information to compile reports. The cookies collect information in an anonymous form.
+                                            </div>
+                                            <div class="rd-description">
+                                                <b>Cookies from Unbounce:</b>  FirstSession, ReturningSession, ubpv, ubvt, ubvs. 
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 mt-5">
+                                            <h2>Mailing lists</h2>
+                                            <div class="rd-description">
+                                                As part of the registration process for our newsletter, we collect personal information. We use that information for a couple of reasons: to tell you about stuff you’ve asked us to tell you about; to contact you if we need to obtain or provide additional information; to check our records are right and to check every now and then that you’re happy and satisfied. We don’t rent or trade email lists with other organizations and businesses.
+                                            </div>
+                                            <div class="rd-description">
+                                                We use a third-party provider, Campaign Monitor, to deliver our newsletter. We gather statistics around email opening and clicks using industry standard technologies to help us monitor and improve our e-newsletter. For more information, please see Campaign Monitor’s Privacy Policy. You can unsubscribe to general mailings at any time by clicking the unsubscribe link at the bottom of any of our emails. Unsubscribe requests are fulfilled within minutes and no further communications will be sent to users who have stated that they do not wish to receive the specified information.
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 mt-5">
+                                            <h2>Contact forms</h2>
+                                            <div class="rd-description">
+                                                When you submit a contact form we store this information in our database. This information will be stored as long as we find it relevant to improve customer service, but we strive not to keep your records for longer than necessary.
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mt-5">
+                                            <h2>Consent to communicate</h2>
+                                            <div class="rd-description">
+                                                ConversionLab is committed to protecting and respecting your privacy, and we’ll only use your personal information to administer your account and to provide the products and services you requested from us. From time to time, we would like to contact you about our products and services, as well as other content that may be of interest to you. You will be asked to consent to this in our contact forms.
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mt-5">
+                                            <h2>Consent to process data</h2>
+                                            <div class="rd-description">
+                                                In order to provide you the content you request, we need to store and process your personal data. You will be asked to consent to this in our contact forms.
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mt-5">
+                                            <h2>Access to your personal information</h2>
+                                            <div class="rd-description">
+                                                You are entitled to view, amend, or delete the personal information that we hold. Email your request to our data protection officer Rolf Inge Holden at info@conversionlab.no.
+                                            </div>
+                                            <div class="rd-description">
+                                                In the case of access and correction requests, please provide as much detail as you can about the particular information you seek, in order to help us locate it. We will comply with your request within 30 days.
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mt-5">
+                                            <h2>Policy Modifications</h2>
+                                            <div class="rd-description">
+                                                We keep our privacy notice under regular review. This privacy notice was last updated on 16 May 2018.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,31 @@
+body {
+    header {
+        .container {
+            #top_menu {
+                .nav-item {
+                    padding: 3px 10px;
+                    .nav-link  {
+                        text-transform: uppercase;
+                        font-weight: 600;
+                    }
+                    &.divider {
+                        display: none;
+                    }
+                    a[href="/web/login"] {
+                        display: none;
+                    }
+                    .xl-small {
+                        padding: 10px 22px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        .rb_footer {
+            background-color: rgba(26,35,43,1);
+            color:#8e959c;
+        }
+    }
+}

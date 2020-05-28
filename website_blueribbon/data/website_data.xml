@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Website -->
+        <record id="website.default_website" model="website">
+            <field name="name">BlueRibbon</field>
+            <field name="domain"></field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="user_id" ref="base.public_user"/>
+            <field name="favicon" type="base64" file="website_blueribbon/static/src/img/favicon.ico"/>
+        </record>
+        <record id="menu_services" model="website.menu">
+            <field name="name">OUR SERVICES</field>
+            <field name="url">#services</field>
+            <field name="website_id" ref="website.default_website"/>
+            <field name="sequence" type="int">20</field>
+        </record>
+        <record id="menu_process" model="website.menu">
+            <field name="name">OUR PROCESS</field>
+            <field name="url">#process</field>
+            <field name="website_id" ref="website.default_website"/>
+            <field name="sequence" type="int">21</field>
+        </record>
+        <record id="menu_study" model="website.menu">
+            <field name="name">CASE STUDY</field>
+            <field name="url">/case-study</field>
+            <field name="website_id" ref="website.default_website"/>
+            <field name="sequence" type="int">21</field>
+        </record>
+    </data>
+</odoo>

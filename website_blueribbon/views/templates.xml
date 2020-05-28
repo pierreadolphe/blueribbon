@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_frontend" name="assets" inherit_id="web.assets_frontend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/scss" href="/website_blueribbon/static/src/lib/animation.css"/>
+            <link rel="stylesheet" type="text/scss" href="/website_blueribbon/static/src/scss/snippet.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/website_blueribbon/static/src/scss/header.scss"/>
+            <script type="text/javascript" src="/website_blueribbon/static/src/js/load.js"/>
+            <link rel="stylesheet" type="text/scss" href="/website_blueribbon/static/src/scss/responsive.scss"/>
+        </xpath>
+    </template>
+</odoo>
