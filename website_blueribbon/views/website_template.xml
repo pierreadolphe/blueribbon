@@ -5,6 +5,7 @@
             <li class="nav-item">
                 <a data-toggle="modal" data-target="#rb-model-popup" class="btn btn-outline-primary mb-2 rd-custom-button xl-small">GET A FREE CONSULT</a>
             </li>
+            <t t-call="website.language_selector"/>
         </xpath>
     </template>
 

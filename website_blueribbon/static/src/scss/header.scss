@@ -19,6 +19,40 @@ body {
                         font-size: 12px;
                     }
                 }
+                .js_language_selector {
+                    .d-none.d-sm-block {
+                        display: none !important;
+                    }
+                    .dropup {
+                        .dropdown-toggle {
+                            border: 0;
+                            padding: 10px 9px;
+                            margin-top: 3px;
+                            font-size: 0;
+                            background: #f78059;
+                            box-shadow: 0 3px 0 #af5c34 !important;
+                            &:hover, &:active, &:focus {
+                                background-color: darken(rgba(247,128,89,1),5) !important;
+                            }
+                            &:before {
+                                content: '\f0ac';
+                                display: block;
+                                font: normal normal normal 14px/1 FontAwesome;
+                                font-size: inherit;
+                                text-rendering: auto;
+                                -webkit-font-smoothing: antialiased;
+                                -moz-osx-font-smoothing: grayscale;
+                                font-size: 17px;
+                                margin: auto;
+                            }
+                        }
+                        .dropdown-menu {
+                            top: 100%;
+                            bottom: auto;
+                            margin-top: 5px;
+                        }
+                    }
+                }
             }
         }
     }

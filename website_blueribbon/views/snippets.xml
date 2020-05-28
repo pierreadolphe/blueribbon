@@ -32,10 +32,10 @@
     </template>
 
     <template id="rb_blueribbon_title" name="Blueribbon Title">
-        <section class="rb_blueribbon_title pt32 pb32">
-            <div class="container pt-5">
+        <section class="rb_blueribbon_title pb32">
+            <div class="container">
                 <div class="row s_nb_column_fixed">
-                    <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                    <div class="col-lg-12 s_title pb16" style="text-align: center;">
                         <h2 class="mb-4 mt-4">We give you increased results – every time!</h2>
                         <div class="container">
                             <div class="row">
