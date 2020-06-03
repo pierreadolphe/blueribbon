@@ -2,10 +2,13 @@
 <odoo>
     <template id="portal_show_sign_in" inherit_id="portal.frontend_layout" name="Show Sign In">
         <xpath expr="//ul[@id='top_menu']" position="inside">
-            <li class="nav-item">
-                <a data-toggle="modal" data-target="#rb-model-popup" class="btn btn-outline-primary mb-2 rd-custom-button xl-small">GET A FREE CONSULT</a>
-            </li>
             <t t-call="website.language_selector"/>
+        </xpath>
+    </template>
+
+    <template id="rb_layout" inherit_id="portal.frontend_layout">
+        <xpath expr="//head//title" position="replace">
+            <title>BlueRibbon</title>
         </xpath>
     </template>
 
