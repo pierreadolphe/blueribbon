@@ -4,17 +4,7 @@
         <xpath expr="//ul[@id='top_menu']" position="inside">
             <t t-call="website.language_selector"/>
         </xpath>
-    </template>
-
-    <template id="rb_layout" inherit_id="portal.frontend_layout">
-        <xpath expr="//head//title" position="replace">
-            <title>BlueRibbon</title>
-        </xpath>
-    </template>
-
-
-    <template id="rb_footer_custom" inherit_id="website.footer_custom">
-        <xpath expr="//div[@id='footer']" position="inside">
+        <xpath expr="//header" position="inside">
             <div class="modal fade" id="rb-model-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
@@ -98,6 +88,19 @@
                 </div>
             </div>
         </xpath>
+        <xpath expr="//a[hasclass('navbar-brand')]" position="inside">
+            <t t-call="website.language_selector"/>
+        </xpath>
+    </template>
+
+    <template id="rb_layout" inherit_id="portal.frontend_layout">
+        <xpath expr="//head//title" position="replace">
+            <title>Blueribbon Consulting</title>
+        </xpath>
+    </template>
+
+
+    <template id="rb_footer_custom" inherit_id="website.footer_custom">
         <xpath expr="//ul[hasclass('list-unstyled')]" position="replace">
             <ul class="list-unstyled">
                 <li>
@@ -112,9 +115,9 @@
                 <li>
                     <a href="/case-study">Case Study</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="/terms-and-conditions">Terms &amp; Conditions</a>
-                </li>
+                </li> -->
             </ul>
         </xpath>
     </template>
