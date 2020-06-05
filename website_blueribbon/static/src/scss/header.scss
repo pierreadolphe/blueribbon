@@ -19,37 +19,75 @@ body {
                         font-size: 12px;
                     }
                 }
-                .js_language_selector {
-                    order: -1;
-                    .d-none.d-sm-block {
+            }
+            .js_language_selector {
+                order: -1;
+                .d-none.d-sm-block {
+                    display: none !important;
+                }
+                .dropup {
+                    .dropdown-toggle {
+                        border: 0;
+                        margin-top: 12px;
+                        display: flex;
+                        flex-direction: row;
+                        background: #00A09D;
+                        &:hover, &:active, &:focus {
+                            background-color: darken(#00A09D,5) !important;
+                        }
+                        &:before {
+                            content: '\f0ac';
+                            display: block;
+                            font: normal normal normal 14px/1 FontAwesome;
+                            font-size: inherit;
+                            text-rendering: auto;
+                            -webkit-font-smoothing: antialiased;
+                            -moz-osx-font-smoothing: grayscale;
+                            font-size: 17px;
+                            margin-right: 5px;
+                        }
+                        &:after {
+                            display: none;
+                        }
+                    }
+                    .dropdown-menu {
+                        top: 100%;
+                        bottom: auto;
+                        margin-top: 5px;
+                    }
+                }
+            }
+            & > .js_language_selector {
+                display: none;
+            }
+            @media (max-width: 768px) {
+                justify-content: flex-end;
+                & > .js_language_selector {
+                    display: inline-flex !important;
+                    order: 1;
+                    margin-left: auto;
+                    .dropdown-toggle {
+                        margin: 0 !important;
+                    }
+                    .list-inline-item {
+                        line-height: 0;
+                    }
+                }
+                .navbar-toggler {
+                    order: 3;
+                }
+                #top_menu_collapse {
+                    order: 3;
+                    .js_language_selector {
                         display: none !important;
                     }
-                    .dropup {
-                        .dropdown-toggle {
-                            border: 0;
-                            padding: 10px 9px;
-                            margin-top: 3px;
-                            font-size: 0;
-                            background: #20418f;
-                            &:hover, &:active, &:focus {
-                                background-color: darken(#20418f,5) !important;
-                            }
-                            &:before {
-                                content: '\f0ac';
-                                display: block;
-                                font: normal normal normal 14px/1 FontAwesome;
-                                font-size: inherit;
-                                text-rendering: auto;
-                                -webkit-font-smoothing: antialiased;
-                                -moz-osx-font-smoothing: grayscale;
-                                font-size: 17px;
-                                margin: auto;
-                            }
-                        }
-                        .dropdown-menu {
-                            top: 100%;
-                            bottom: auto;
-                            margin-top: 5px;
+                }
+                .navbar-brand.show {
+                    & + .dropdown-menu {
+                        display: block !important;
+                        .dropdown-item {
+                            line-height: 1.5;
+                            padding: 4px 15px;
                         }
                     }
                 }
@@ -63,27 +101,7 @@ body {
         }
         .js_language_selector {
             .dropup {
-                .dropdown-toggle {
-                    border: 0;
-                    padding: 10px 9px;
-                    margin: 3px 5px 0 5px;
-                    font-size: 0;
-                    background: #20418f;
-                    &:hover, &:active, &:focus {
-                        background-color: darken(#20418f,5) !important;
-                    }
-                    &:before {
-                        content: '\f0ac';
-                        display: block;
-                        font: normal normal normal 14px/1 FontAwesome;
-                        font-size: inherit;
-                        text-rendering: auto;
-                        -webkit-font-smoothing: antialiased;
-                        -moz-osx-font-smoothing: grayscale;
-                        font-size: 17px;
-                        margin: auto;
-                    }
-                }
+                display: none;
             }
         }
     }
