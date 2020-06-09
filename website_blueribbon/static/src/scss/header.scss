@@ -60,6 +60,13 @@ body {
             & > .js_language_selector {
                 display: none;
             }
+            .rb-selected {
+                .js_change_lang.active {
+                    padding: 2px 10px;
+                    border-radius: 5px;
+                    margin-top: 9px;
+                }
+            }
             @media (max-width: 768px) {
                 justify-content: flex-end;
                 & > .js_language_selector {
