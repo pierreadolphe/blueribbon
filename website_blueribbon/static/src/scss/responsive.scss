@@ -65,4 +65,54 @@
             }
         }
     }
+    .rb_blueribbon_progress {
+        & > .col-12 {
+            .rd-title {
+                padding: 0 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        header {
+            .container {
+                .rb-selected {
+                    margin-right: 10px;
+                    .js_change_lang.active {
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    }
+    .swiper-slide-active, .rb_blueribbon_full_services, .rb-winner-box, .rb_intent_popups {
+        .container {
+            .s_title {
+                & > .container {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+            }
+        }
+    }
+    .rb_blueribbon_progress {
+        & > .col-12 {
+            .rd-title {
+                padding: 0 15px;
+            }
+        }
+    }
+    .swiper-slide-active {
+        & > .col-12 {
+            & > .row {
+                .col-lg-7.p-0 {
+                    .rd-title {
+                        padding: 0 15px;
+                    }
+                }
+            }
+        }
+    }
 }

@@ -213,7 +213,7 @@
     </template>
 
     <template id="rb_blueribbon_optimization_process" name="Optimization process">
-        <section class="s_features pt32 pb32 rb_blueribbon_optimization_process mt-5 rb-feature-title" style="" id="#process">
+        <section class="s_features pt32 pb32 rb_blueribbon_optimization_process mt-5 rb-feature-title" style="" id="process">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center mt-5">
