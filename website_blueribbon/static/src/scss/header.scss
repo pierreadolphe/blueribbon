@@ -86,7 +86,7 @@ body {
                 justify-content: flex-end;
                 & > .js_language_selector {
                     display: inline-flex !important;
-                    order: 1;
+                    order: 0;
                     margin-left: auto;
                     .dropdown-toggle {
                         margin: 0 !important;
@@ -95,11 +95,7 @@ body {
                         line-height: 0;
                     }
                 }
-                .navbar-toggler {
-                    order: 3;
-                }
-                #top_menu_collapse {
-                    order: 3;
+                #top_menu {
                     .js_language_selector {
                         display: none !important;
                     }
