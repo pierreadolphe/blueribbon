@@ -60,6 +60,28 @@ body {
             & > .js_language_selector {
                 display: none;
             }
+            .rb-selected {
+                .js_change_lang.active {
+                    padding: 2px 10px;
+                    border-radius: 5px;
+                    margin-top: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 12px;
+                    &:before {
+                        content: '\f0ac';
+                        display: block;
+                        font: normal normal normal 14px/1 FontAwesome;
+                        font-size: inherit;
+                        text-rendering: auto;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        font-size: 14px;
+                        margin-right: 5px;
+                    }
+                }
+            }
             @media (max-width: 768px) {
                 justify-content: flex-end;
                 & > .js_language_selector {
